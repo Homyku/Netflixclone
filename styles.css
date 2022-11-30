@@ -7,20 +7,23 @@
 	background-color: #111;
  }
 
+
+
  .row_poster {
 	width: 100%;
 	object-fit: contain;
 	max-height: 100px;
 	margin-right: 10px;
 	transition: transform 0.5s;
-
+	overflow: scroll;
  }
 
  .row_posters{
 	display: flex;
 	overflow-y: hidden;
-	overflow-x: clip;
-	padding: 20px;
+	overflow-x: scroll;
+	padding: 10px;
+
  }
 
  .row_poster:hover{
@@ -54,14 +57,14 @@
 
  .banner_contents{
 	margin-left: 30px;
-	margin-top: 15px;
+	margin-top: 30px;
 	height: 190px;
  }
 
  .banner_title{
 	font-size: 3rem;
 	font-weight: 800;
-	margin-top: 10px;
+	margin-top: 70px;
 	padding-bottom: 0.5rem;
  }
 
@@ -127,3 +130,23 @@
  .nav_black{
 	background-color: #111;
  }
+
+ .nav_button{
+	background: rgb(56, 50, 50, 0);
+	color: white;
+	transition: all 0.3s;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background-color: #111;
+	padding: 10px;
+	margin-left: 60px;
+ }
+
+ .nav_button:hover{
+	color: #000;
+	background-color: #e6e6e6;
+	transition: all 0.3s;
+ }
+
+ 
