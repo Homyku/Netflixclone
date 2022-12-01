@@ -152,23 +152,15 @@
 	background-color: #111;
  }
 
- .nav_button{
+.navbar{
+	background-color: white;
+	color:#e6e6e6;
+}
 
+.nav-link{
 	color: white;
-	transition: all 0.3s;
-	outline: none;
-	border: none;
-	cursor: pointer;
-	background-color: rgba(0,0,0,0);
-	padding: 10px;
-	margin-right: 80%;
-
- }
-
- .nav_button:hover{
-	color: #000;
-	background-color: #e6e6e6;
-	transition: all 0.3s;
- }
-
- 
+}
+.dropdown-toggle{
+	color: rgb(232, 3, 3);
+	background-color: black;
+}
