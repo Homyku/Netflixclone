@@ -157,3 +157,7 @@
 	color: rgb(232, 3, 3);
 	background-color: black;
 }
+
+.dropdown-toggle:hover{
+	color:rgb(232, 3, 3);
+}
